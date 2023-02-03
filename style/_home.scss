@@ -1,163 +1,157 @@
-
-
-
 body {
-   margin: 0 auto;
-   box-sizing: border-box;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .header-container {
-   width: 100%;
-   max-width: 1366px;
-   display: flex;
-   border-bottom: 1px solid #EFEEF3;;
-   &__logo {
-      padding: 25px 12px 25px 135px;
-      cursor: pointer;
-   }
-   &__title {
-      font-family: 'Quicksand';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 35px;
-      line-height: 35px;
-      color: #16133D;
-      padding: 23px 0;
-      cursor: pointer;
-   }
+  width: 100%;
+  max-width: 1366px;
+  display: flex;
+  border-bottom: 1px solid #efeef3;
+  &__logo {
+    padding: 25px 12px 25px 135px;
+    cursor: pointer;
+  }
+  &__title {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #16133d;
+    padding: 23px 0;
+    cursor: pointer;
+  }
 }
 
 .main-container {
-   margin: 0 auto;
-   &__title-paragraph {
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 21px;
-      color: #7690A8;
-      padding: 100px 0 15px 138px;
-   }
-   &__title {
-      font-family: 'Nunito Sans';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 52px;
-      letter-spacing: 0.2px;
-      color: #16133D;
-      padding-left: 135px;
-   }
+  margin: 0 auto;
+  &__title-paragraph {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690a8;
+    padding: 100px 0 15px 138px;
+  }
+  &__title {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133d;
+    padding-left: 135px;
+  }
 }
 
 .main-container__list-card {
-   display: flex;
-   padding: 40px 135px 100px 135px;
-   gap: 30px;
-   justify-content: space-between;
+  display: flex;
+  padding: 40px 135px 100px 135px;
+  gap: 30px;
+  justify-content: space-between;
 }
 
 .list-card__item {
-   border: 1px solid #E5EAF4;
-   border-radius: 8px;
-   padding: 40px;
-   transition: .3 all;
-   &:hover{
-      border: 1px solid #3DB370;
-   }
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+  padding: 40px;
+  transition: 0.3 all;
+  &:hover {
+    border: 1px solid #3db370;
+  }
 }
 
 .item__title {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 24px;
-   line-height: 21px;
-   letter-spacing: 0.2px;
-   color: #16133D;
-   padding: 30px 0 15px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  padding: 30px 0 15px 0;
 }
 
 .item__text {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 28px;
-   color: #16133D;
-   padding: 0 15px 30px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133d;
+  padding: 0 15px 30px 0;
 }
 
 .item__link * {
-   text-decoration: none;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 600;
-   font-size: 16px;
-   line-height: 19px;
-   color: #3DB370;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3db370;
 }
 
 .item-blueicon {
-   margin: 14px 200px 14px 14px;
-   position: relative;
-   &:hover {
-      visibility: hidden;
-   }
-
+  margin: 14px 200px 14px 14px;
+  position: relative;
+  &:hover {
+    visibility: hidden;
+  }
 }
 
 .item-greenicon {
-   visibility: hidden;
-   position: absolute;
-   top: 0;
-   right: 0;
-   left: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .item-blueicon:hover .item-greenicon {
-   visibility: visible;
+  visibility: visible;
 }
 
 .footer {
-   width: 100%;
-   background: #16133D;
+  width: 100%;
+  background: #16133d;
 }
 
 .footer-logo {
-   width: 100%;
-   max-width: 1366px;
-   display: flex;
-   cursor: pointer;
-   &__emblame {
-      padding: 25px 12px 25px 135px;
-   }
-   &__title {
-      font-family: 'Quicksand';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 35px;
-      line-height: 35px;
-      color: #FFFFFF;
-      padding: 23px 0;
-   }
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  &__emblame {
+    padding: 25px 12px 25px 135px;
+  }
+  &__title {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    padding: 23px 0;
+  }
 }
 .socials__list {
-   display: flex;
-   padding-left: 135px;
-   padding-bottom: 40px;
-   gap: 10px;
+  display: flex;
+  padding-left: 135px;
+  padding-bottom: 40px;
+  gap: 10px;
 }
 
-
-.list-item:hover use{
-   fill: #3DB370;
+.list-item:hover use {
+  fill: #3db370;
 }
 
 .icon {
-   background: #EFEEF3;
-   width: 20px;
-   height: 20px;
-   border-radius: 5px;
-   padding: 9px;
+  background: #efeef3;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 9px;
 }
